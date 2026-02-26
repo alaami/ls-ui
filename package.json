@@ -1,7 +1,7 @@
 {
   "name": "@alaami/ls-ui",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "main": "dist/ls-ui.js",
   "types": "dist/ls-ui.d.ts",
