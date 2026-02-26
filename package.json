@@ -1,8 +1,13 @@
 {
-  "name": "@alaam/ls-ui",
+  "name": "@alaami/ls-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "dist/ls-ui.js",
+  "types": "dist/ls-ui.d.ts",
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": "./src/components/index.tsx",
     "./components/ui/avatar": "./src/components/ui/avatar.tsx",
@@ -18,8 +23,9 @@
     "./lib/utils": "./src/lib/utils.ts"
   },
   "scripts": {
+    "build": "vite build",
     "dev": "storybook dev -p 6006",
-    "build": "storybook build",
+    "build:storybook": "storybook build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
